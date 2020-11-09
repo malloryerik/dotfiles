@@ -360,12 +360,7 @@ you should place your code here."
   (add-hook 'org-shiftright-final-hook 'windmove-right) 
 
 
-;;  (unless (display-graphic-p)
-;;    (require 'evil-terminal-cursor-changer)
-;;    (evil-terminal-cursor-changer-activate) ; or (etcc-on)
-;;    )
-
-
+  ;; Something unwholesome is up with Apative Wrap
 ;;    (Adaptive-wrap-prefix-mode (if visual-line-mode 1 -1)))
 ;;  (add-hook 'visual-line-mode-hook 'my-activate-adaptive-wrap-prefix-mode))
                                         ; (set-face-attribute 'spacemacs-normal-face nil :background "yellow")
